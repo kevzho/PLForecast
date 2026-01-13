@@ -8,7 +8,7 @@
 
 ### Sources: 
 1. https://www.football-data.co.uk/englandm.php
-2.  
+2. https://www.bbc.com/sport/football/premier-league/table
 
 
 ### Data that was collected:
