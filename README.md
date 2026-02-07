@@ -27,33 +27,24 @@
 
 
 ### Schema:
-project-root/
-├── data/
-│   ├── bbc_raw.html
-│   ├── E0_2526.csv
-│   ├── results_25-26.csv
-│   └── summary_table2526.csv
-├── notebooks/
-│   ├── match-level-eda.ipynb
-│   ├── table-level-eda.ipynb
-│   └── betting-odds-analysis.ipynb
-├── output/
-├── app.py
-├── elo.py
-├── fetch_data.py
-├── simulate.py
-├── LICENSE
-├── README.md
-└── requirements.txt
-
-    .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
+    project-root/
+    ├── data/
+    │   ├── bbc_raw.html
+    │   ├── E0_2526.csv
+    │   ├── results_25-26.csv
+    │   └── summary_table2526.csv
+    ├── notebooks/
+    │   ├── match-level-eda.ipynb
+    │   ├── table-level-eda.ipynb
+    │   └── betting-odds-analysis.ipynb
+    ├── output/
+    ├── app.py
+    ├── elo.py
+    ├── fetch_data.py
+    ├── simulate.py
     ├── LICENSE
-    └── README.md
+    ├── README.md
+    └── requirements.txt
 
 #### Descriptions:
 - All analysis notebooks are located in the `notebooks/` subfolder.
