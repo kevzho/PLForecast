@@ -27,4 +27,27 @@
 
 
 ### Schema:
+project-root/
+│
+├─ data/ # Raw and processed data
+│ ├─ bbc_raw.html
+│ ├─ E0_2526.csv
+│ ├─ results_25-26.csv
+│ └─ summary_table2526.csv
+│
+├─ notebooks/ # Analysis and EDA notebooks
+│ ├─ match-level-eda.ipynb
+│ ├─ table-level-eda.ipynb
+│ └─ betting-odds-analysis.ipynb
+│
+├─ output/ # Generated outputs (plots, tables, predictions)
+├─ app.py # Main application or runner script
+├─ elo.py # ELO rating calculations
+├─ fetch_data.py # Data scraping/parsing utilities
+├─ simulate.py # Simulation scripts
+├─ LICENSE
+├─ README.md
+└─ requirements.txt
+
+#### Descriptions:
 - All analysis notebooks are located in the `notebooks/` subfolder.
