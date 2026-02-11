@@ -31,9 +31,11 @@
     ./
     ├── data/
     │   ├── bbc_raw.html
-    │   ├── EO_2526_raw.json #json file
+    │   ├── EO_2526_raw.json                 #json file
     │   ├── E0_2526.csv
     │   ├── results_25-26.csv
+    │   ├── power_rankings_2526.csv
+    │   ├── elo_ratings_2526.csv
     │   └── summary_table2526.csv
     ├── notebook-viz/
     │   ├── match-level-eda.ipynb
@@ -47,11 +49,16 @@
     │   ├── elo.py                          #generate elo's
     │   ├── elo_run.py                      #generates elo's
     │   ├── fetch_data.py
+    │   ├── cache_utils.py                  #caches data
+    │   ├── pipeline.py                     #define simulation pipeline (parameters, etc.)
+    │   ├── simulation.py                   #contains details about running the monte-carlo simulations (main logic here)
+    │   ├── table.py                        #defines function for updating our simulated league table
     │   └── load_data.py
     ├── app.py
     ├── LICENSE
     ├── README.md
-    └── requirements.txt
+    ├── requirements.txt
+    └── run.py                              #main entry point
 
 #### Descriptions:
 - All analysis notebooks are located in  `notebook-viz/`.
