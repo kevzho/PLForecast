@@ -14,23 +14,6 @@ def get_all_fixtures():
         # ========================================
         # FEBRUARY 2026
         # ========================================
-        
-        # Wednesday, 18 February 2026
-        ['Wolves', 'Arsenal', '2026-02-18', '15:00', 'EST'],
-        
-        # Saturday, 21 February 2026
-        ['Aston Villa', 'Leeds', '2026-02-21', '10:00', 'EST'],
-        ['Brentford', 'Brighton', '2026-02-21', '10:00', 'EST'],
-        ['Chelsea', 'Burnley', '2026-02-21', '10:00', 'EST'],
-        ['West Ham', 'AFC Bournemouth', '2026-02-21', '12:30', 'EST'],
-        ['Man City', 'Newcastle', '2026-02-21', '15:00', 'EST'],
-        
-        # Sunday, 22 February 2026
-        ['C Palace', 'Wolves', '2026-02-22', '09:00', 'EST'],
-        ['Nottm Forest', 'Liverpool', '2026-02-22', '09:00', 'EST'],
-        ['Sunderland', 'Fulham', '2026-02-22', '09:00', 'EST'],
-        ['Spurs', 'Arsenal', '2026-02-22', '11:30', 'EST'],
-        
         # Monday, 23 February 2026
         ['Everton', 'Man United', '2026-02-23', '15:00', 'EST'],
         
@@ -88,6 +71,8 @@ def get_all_fixtures():
         
         # Friday, 20 March 2026
         ['AFC Bournemouth', 'Man United', '2026-03-20', '16:00', 'EDT'],
+        # TBD
+        ['Man City', 'C Palace', '2026-03-21', '11:00', 'EDT'],
         
         # Saturday, 21 March 2026
         ['Brighton', 'Liverpool', '2026-03-21', '08:30', 'EDT'],
@@ -191,6 +176,7 @@ def get_all_fixtures():
         ['Spurs', 'Everton', '2026-05-24', '11:00', 'EDT'],
         ['Sunderland', 'Chelsea', '2026-05-24', '11:00', 'EDT'],
         ['West Ham', 'Leeds', '2026-05-24', '11:00', 'EDT'],
+
     ]
     
     # Create DataFrame
