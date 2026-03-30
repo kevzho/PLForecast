@@ -4,7 +4,7 @@ import random
 from copy import deepcopy
 
 from src.elo import elo_to_match_probs
-from src.table import update_table, rank_table
+from .table import initialize_table, rank_simulation_table, update_simulation_table
 from src.team_names import normalize_team
 
 def sample_match(win_h, draw, win_a):
@@ -61,9 +61,9 @@ def simulate_season(
             #simulate sample match result
             result = sample_match(win_h, draw, win_a)
             #update table based off of that match result
-            update_table(table_copy, home, away, result)
+            update_simulation_table(table_copy, home, away, result)
 
-        final_table = rank_table(table_copy)
+        final_table = rank_simulation_table(table_copy)
         if n == 1:
             print(final_table)
 

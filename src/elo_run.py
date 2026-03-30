@@ -1,4 +1,4 @@
-from elo import compute_table_state, save_elo, save_elo_csv
+from .elo import compute_table_state, save_elo, save_elo_csv
 import pandas as pd
 import os
 

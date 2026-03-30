@@ -112,6 +112,10 @@ pip install -r requirements.txt
 
 # Run dashboard
 streamlit run app.py
+
+# or
+
+python refresh_and_run.py --launch-app
 ```
 ## Future Enhancements in v2:
 - Live data fetching via API (football-data.org)
